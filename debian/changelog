@@ -1,8 +1,0 @@
-ros-r2b2-osrf-pycommon (0.1.2-1xenial) xenial; urgency=high
-
-  * Started keeping a changelog.
-  * Changed ``process_utils`` module so that it will use Trollius even on Python >= 3.4 if ``trollius`` has previously been imported.
-
- -- William Woodall <william@osrfoundation.org>  Mon, 28 Mar 2016 20:30:00 -0400
-
-
