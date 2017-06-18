@@ -1,0 +1,12 @@
+Source: ros-r2b2-osrf-pycommon
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python3-dev, python3-setuptools, ros-r2b2-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-r2b2-osrf-pycommon
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-dev, ros-r2b2-ros-workspace
+Description: Commonly needed Python modules, used by Python software developed at OSRF.
