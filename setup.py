@@ -20,9 +20,10 @@ packages = find_packages(exclude=package_excludes)
 
 setup(
     name='osrf_pycommon',
-    version='0.1.4',
+    version='0.1.5',
     packages=packages,
     install_requires=install_requires,
+    zip_safe=True,
     author='William Woodall',
     author_email='william@osrfoundation.org',
     maintainer='William Woodall',
