@@ -1,0 +1,12 @@
+Source: ros-crystal-osrf-pycommon
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-crystal-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-crystal-osrf-pycommon
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python-mock, python3-mock, ros-crystal-ros-workspace
+Description: Commonly needed Python modules, used by Python software developed at OSRF.
