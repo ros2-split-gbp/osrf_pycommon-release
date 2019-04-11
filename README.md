@@ -1,3 +1,26 @@
+## osrf_pycommon (dashing) - 0.1.7-1
+
+The packages in the `osrf_pycommon` repository were released into the `dashing` distro by running `/home/steven/osrf/bloom/myscripts/py3env/bin/bloom-release -n -r dashing osrf_pycommon --override-release-repository-push-url git@github.com:ros2-gbp/osrf_pycommon-release` on `Thu, 11 Apr 2019 19:35:36 -0000`
+
+The `osrf_pycommon` package was released.
+
+Version of package(s) in repository `osrf_pycommon`:
+
+- upstream repository: https://github.com/osrf/osrf_pycommon.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.7-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0.dev2`
+- catkin_pkg version: `0.4.11`
+- rosdep version: `0.15.1`
+- rosdistro version: `0.7.3`
+- vcstools version: `0.1.40`
+
+
 ## osrf_pycommon (crystal) - 0.1.6-0
 
 The packages in the `osrf_pycommon` repository were released into the `crystal` distro by running `/usr/bin/bloom-release -r crystal -n osrf_pycommon --override-release-repository-push-url git@github.com:ros2-gbp/osrf_pycommon-release` on `Thu, 15 Nov 2018 21:52:08 -0000`
