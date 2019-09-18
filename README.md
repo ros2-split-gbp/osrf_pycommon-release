@@ -1,3 +1,26 @@
+## osrf_pycommon (eloquent) - 0.1.8-2
+
+The packages in the `osrf_pycommon` repository were released into the `eloquent` distro by running `/usr/bin/bloom-release -n -r eloquent osrf_pycommon --override-release-repository-push-url git@github.com:ros2-gbp/osrf_pycommon-release` on `Wed, 18 Sep 2019 15:45:32 -0000`
+
+The `osrf_pycommon` package was released.
+
+Version of package(s) in repository `osrf_pycommon`:
+
+- upstream repository: https://github.com/osrf/osrf_pycommon.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `0.1.8-1`
+- new version: `0.1.8-2`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.13`
+- rosdep version: `0.15.2`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.42`
+
+
 ## osrf_pycommon (eloquent) - 0.1.8-1
 
 The packages in the `osrf_pycommon` repository were released into the `eloquent` distro by running `/usr/bin/bloom-release -n -r eloquent osrf_pycommon --override-release-repository-push-url git@github.com:ros2-gbp/osrf_pycommon-release` on `Tue, 17 Sep 2019 19:42:25 -0000`
