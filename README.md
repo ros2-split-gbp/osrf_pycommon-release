@@ -1,3 +1,26 @@
+## osrf_pycommon (dashing) - 0.1.9-1
+
+The packages in the `osrf_pycommon` repository were released into the `dashing` distro by running `/home/dthomas/ros/github/ros-infrastructure/bloom/scripts/bloom-release -r dashing -t dashing osrf_pycommon` on `Thu, 10 Oct 2019 19:59:29 -0000`
+
+The `osrf_pycommon` package was released.
+
+Version of package(s) in repository `osrf_pycommon`:
+
+- upstream repository: https://github.com/osrf/osrf_pycommon.git
+- release repository: https://github.com/ros2-gbp/osrf_pycommon-release.git
+- rosdistro version: `0.1.7-1`
+- old version: `0.1.7-1`
+- new version: `0.1.9-1`
+
+Versions of tools used:
+
+- bloom version: `0.6.9`
+- catkin_pkg version: `0.4.13`
+- rosdep version: `0.16.1`
+- rosdistro version: `0.7.5`
+- vcstools version: `0.1.42`
+
+
 ## osrf_pycommon (eloquent) - 0.1.9-2
 
 The packages in the `osrf_pycommon` repository were released into the `eloquent` distro by running `/home/dthomas/ros/github/ros-infrastructure/bloom/scripts/bloom-release -r eloquent -t eloquent osrf_pycommon` on `Thu, 10 Oct 2019 19:57:17 -0000`
