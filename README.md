@@ -1,3 +1,26 @@
+## osrf_pycommon (rolling) - 0.2.0-1
+
+The packages in the `osrf_pycommon` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling osrf_pycommon` on `Mon, 07 Dec 2020 23:57:12 -0000`
+
+The `osrf_pycommon` package was released.
+
+Version of package(s) in repository `osrf_pycommon`:
+
+- upstream repository: https://github.com/osrf/osrf_pycommon.git
+- release repository: https://github.com/ros2-gbp/osrf_pycommon-release.git
+- rosdistro version: `0.1.10-2`
+- old version: `0.1.10-2`
+- new version: `0.2.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.0`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## osrf_pycommon (foxy) - 0.1.10-1
 
 The packages in the `osrf_pycommon` repository were released into the `foxy` distro by running `/usr/bin/bloom-release --track foxy --rosdistro foxy osrf_pycommon` on `Fri, 08 May 2020 14:31:31 -0000`
