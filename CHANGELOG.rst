@@ -1,3 +1,8 @@
+0.2.1 (2021-01-25)
+------------------
+* Fix osrf.py_common.process_utils.get_loop() implementation (`#70 <https://github.com/osrf/osrf_pycommon/issues/70>`_)
+* Contributors: Michel Hidalgo
+
 0.2.0 (2020-12-07)
 ------------------
 * Python 2/3 version conflict (`#69 <https://github.com/osrf/osrf_pycommon/issues/69>`_)
