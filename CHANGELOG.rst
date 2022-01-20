@@ -1,7 +1,26 @@
-0.1.11 (2021-08-31)
--------------------
-* Fix osrf.py_common.process_utils.get_loop() implementation (`#70 <https://github.com/osrf/osrf_pycommon/issues/70>`_) (`#75 <https://github.com/osrf/osrf_pycommon/issues/75>`_)
+1.0.1 (2022-01-20)
+------------------
+* Update release distributions. (`#78 <https://github.com/osrf/osrf_pycommon/issues/78>`_)
+* Contributors: Steven! Ragnarök
+
+1.0.0 (2021-01-25)
+------------------
+* Added missing conflict rules in stdeb.cfg.
+* Removed Python 2 support.
+* Contributors: Chris Lalancette, Timon Engelke
+
+0.2.1 (2021-01-25)
+------------------
+* Fix osrf.py_common.process_utils.get_loop() implementation (`#70 <https://github.com/osrf/osrf_pycommon/issues/70>`_)
 * Contributors: Michel Hidalgo
+
+0.2.0 (2020-12-07)
+------------------
+* Python 2/3 version conflict (`#69 <https://github.com/osrf/osrf_pycommon/issues/69>`_)
+* remove jessie because we no longer support 3.4 (`#67 <https://github.com/osrf/osrf_pycommon/issues/67>`_)
+* Remove deprecated use of asyncio.coroutine decorator. (`#64 <https://github.com/osrf/osrf_pycommon/issues/64>`_)
+* Fix the __str_\_ method for windows terminal_color. (`#65 <https://github.com/osrf/osrf_pycommon/issues/65>`_)
+* Contributors: Chris Lalancette, Jochen Sprickerhof, William Woodall
 
 0.1.10 (2020-05-08)
 -------------------
