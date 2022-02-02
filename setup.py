@@ -1,3 +1,5 @@
+import sys
+
 from setuptools import find_packages
 from setuptools import setup
 
@@ -5,6 +7,8 @@ from setuptools import setup
 install_requires = [
     'setuptools',
 ]
+if sys.version_info < (3, 8):
+    install_requires.append('importlib-metadata')
 package_excludes = ['tests*', 'docs*']
 packages = find_packages(exclude=package_excludes)
 
@@ -12,7 +16,7 @@ package_name = 'osrf_pycommon'
 
 setup(
     name=package_name,
-    version='1.0.1',
+    version='2.0.0',
     packages=packages,
     data_files=[
         ('share/' + package_name, ['package.xml']),
