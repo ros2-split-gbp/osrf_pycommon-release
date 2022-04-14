@@ -3,7 +3,7 @@ from setuptools import setup
 
 
 install_requires = [
-    'setuptools',
+    'importlib-metadata;python_version<"3.8"',
 ]
 package_excludes = ['tests*', 'docs*']
 packages = find_packages(exclude=package_excludes)
@@ -12,7 +12,7 @@ package_name = 'osrf_pycommon'
 
 setup(
     name=package_name,
-    version='1.0.1',
+    version='2.0.2',
     packages=packages,
     data_files=[
         ('share/' + package_name, ['package.xml']),
