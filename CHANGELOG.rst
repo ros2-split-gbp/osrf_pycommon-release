@@ -1,3 +1,11 @@
+2.1.1 (2022-11-07)
+------------------
+* Declare test dependencies in [test] extra (`#86 <https://github.com/osrf/osrf_pycommon/issues/86>`_)
+* Contributors: Scott K Logan
+
+2.1.0 (2022-05-10)
+------------------
+
 2.0.2 (2022-04-08)
 ------------------
 * Fix an importlib_metadata warning with Python 3.10. (`#84 <https://github.com/osrf/osrf_pycommon/issues/84>`_)
