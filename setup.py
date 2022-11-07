@@ -12,7 +12,7 @@ package_name = 'osrf_pycommon'
 
 setup(
     name=package_name,
-    version='2.1.0',
+    version='2.1.1',
     packages=packages,
     data_files=[
         ('share/' + package_name, ['package.xml']),
@@ -20,6 +20,13 @@ setup(
             ['resource/' + package_name]),
     ],
     install_requires=install_requires,
+    extras_require={
+        'test': [
+            'flake8',
+            'flake8_import_order',
+            'pytest',
+        ],
+    },
     python_requires='>=3.5',
     zip_safe=True,
     author='William Woodall',
